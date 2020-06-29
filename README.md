@@ -11,6 +11,11 @@ This project will present how to upload detection consequence to website and clo
 ## File explain
 * app.py: It has tensorflow object detection class ,mqtt funciton and flask framework
 * camera.py: Used lock to deal with video frame
+## How to work
+* After building eniveronment, personal model, and fix two python file
+* install gunicorn 'pip install gunicorn'
+* create 'wsgi.py'
+* commend : gunicorn --threads 5 --workers 1 --bind 0.0.0.0:5000 app:app
 ## Reference
 * Tensorflow object detection environment build
   * EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
