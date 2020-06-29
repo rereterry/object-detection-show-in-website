@@ -13,8 +13,8 @@ This project will present how to upload detection consequence to website and clo
 * camera.py: Used lock to deal with video frame
 ## How to work
 * After building eniveronment, personal model, and fix two python file
-* install gunicorn 'pip install gunicorn'
-* create 'wsgi.py'
+* install gunicorn `pip install gunicorn`
+* create `wsgi.py`
 * commend : gunicorn --threads 5 --workers 1 --bind 0.0.0.0:5000 app:app
 ## Reference
 * Tensorflow object detection environment build
