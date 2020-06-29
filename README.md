@@ -15,6 +15,6 @@ This project will present how to upload detection consequence to website and clo
 * Tensorflow object detection environment build
   * EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
 * close website and close opencv
-  * this is search from a stackoverflow, but I forgot the url
+  * I search from the stackoverflow, but I forgot the url
 * opencv use multiple thread and lock to read webcam
   * https://nrsyed.com/2018/07/05/multithreading-with-opencv-python-to-improve-video-processing-performance/
