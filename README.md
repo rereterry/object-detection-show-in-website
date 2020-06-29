@@ -1,5 +1,4 @@
 # object-detection-show-in-website
-====
 This project will present how to upload detection consequence to website and close website and opencv correctly
 ## Environment
 * cuda (choose version by you os and tensorflow version)
