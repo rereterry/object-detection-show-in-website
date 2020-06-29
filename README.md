@@ -16,6 +16,7 @@ This project will present how to upload detection consequence to website and clo
 * install gunicorn `pip install gunicorn`
 * create `wsgi.py`
 * commend : gunicorn --threads 5 --workers 1 --bind 0.0.0.0:5000 app:app
+* used website server can help us to deal with multiple request
 ## Reference
 * Tensorflow object detection environment build
   * EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
